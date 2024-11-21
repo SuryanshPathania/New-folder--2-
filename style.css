@@ -143,3 +143,22 @@ body{
 .location-not-found img{
     width: 80%;
 }
+.search-btn {
+    width: 46px; /* Button width */
+    height: 46px; /* Button height */
+    display: flex; /* Ensures centering of the image */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    background-color: #e6f5fb; /* Background color */
+    border-radius: 50%; /* Makes button circular */
+    border: none; /* Removes button border */
+    cursor: pointer; /* Changes cursor to pointer */
+    padding: 0; /* Removes padding */
+}
+
+.search-btn img {
+    width: 24px; /* Adjust image size to fit well */
+    height: 24px;
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+    border-radius: 50%; /* Keeps image circular if needed */
+}
